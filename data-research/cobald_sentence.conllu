@@ -1,0 +1,13 @@
+# text = Bill was leaving small-sized hometown with his three beloved cats.
+ID	FORM	LEMMA	DEEPSLOT	SEMCLASS	COB_ID	HEAD_COB_ID	DEPREL
+1	Bill	Bill	Agent	BEING	1	3	nsubj
+2	was	be	_	AUXILIARY_VERBS	2	3	aux
+3	leaving	leave	Predicate	MOTION	3	0	root
+4	small-sized	small-sized	Ch_Parameter	DIMENSIONS_CHAR	4	5	amod
+5	hometown	hometown	Locative_InitialPoint	PLACE	5	3	obj
+6	with	with	_	PREPOSITION	6	10	case
+7	his	his	Object_Relation	BEING	7	10	nmod:poss
+8	three	three	Quantity	CH_REFERENCE_AND_QUANTIFICATION	8	10	nummod
+9	beloved	beloved	Characteristic	EMOTIONS_AND_THEIR_EXPRESSION	9	10	amod
+10	cats	cat	Part	BEING	10	3	obl:with
+11	.	.	_	_	11	3	punct

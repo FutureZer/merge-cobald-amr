@@ -1,0 +1,44 @@
+# IDE / Python
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+amrlib_venv/
+
+# Cloned third-party projects (not part of this pipeline)
+classifier/
+
+# CoBaLD parser training code (optional; inference uses Hugging Face)
+cobald_parser/
+src/
+
+# Large / local runtime artifacts
+data-temp/**
+!data-temp/
+!data-temp/**/*.png
+
+# gSofia / Gaston outputs (keep flat/*.txt inputs, ignore mining results)
+flat/**/out/
+flat/**/*.OUT
+flat/**/*.json
+!flat/vocab_*.json
+!flat/enr-node/vocab_*.json
+
+# Archives and notebooks (local experiments)
+flat.zip
+build-document-amr-stage2.ipynb
+report.json
+
+# Thesis / paper (not part of the graph pipeline repo)
+main.tex
+references_implementation.bib
+aggregation_viz/
+top_activations/
+grad_importance/
+
+# OS
+Thumbs.db
+.DS_Store
